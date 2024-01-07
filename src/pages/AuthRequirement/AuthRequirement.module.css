@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #2c55a4;
+  font-weight: 600;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.authLink {
+  border: 1px solid #2c55a4;
+  color: #2c55a4;
+  margin-bottom: 5px;
+}
+
+.authLink:hover {
+  background-color: #2c55a4;
+  color: #fff;
+}
+
+.regLink {
+  background-color: #2c55a4;
+  color: #fff;
+}
+
+.regLink:hover {
+  background-color: #1c3f85;
+}

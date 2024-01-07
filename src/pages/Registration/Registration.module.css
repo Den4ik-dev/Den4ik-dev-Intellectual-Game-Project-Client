@@ -1,0 +1,77 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #386acd;
+  overflow: auto;
+}
+
+@media screen and (max-height: 500px) {
+  .wrapper {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.regForm {
+  background-color: #2c55a4;
+  color: #fff;
+  padding: 30px 40px;
+  width: 46.9%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .regForm {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .regForm {
+    width: 100%;
+  }
+}
+
+.link {
+  color: #fff;
+  margin-top: 5px;
+  transition: color 0.3s ease-out;
+}
+
+.link:hover {
+  color: #d1d1d1;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.inputTitle {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.loginButton {
+  padding: 15px;
+  font-size: 16px;
+  background-color: #966cb8;
+  border-radius: 10px;
+  margin-top: 40px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.loginButton:hover {
+  background-color: #7b559b;
+}
+
+.error {
+  color: rgb(141, 0, 0);
+  font-weight: 600;
+  margin-top: 2px;
+}

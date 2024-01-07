@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 70px;
+  padding: 15px 25px;
+  background-color: #966cb8;
+}
+.headerBody {
+  display: inline-flex;
+  align-items: center;
+}
+.userIcon {
+  height: 40px;
+  display: flex;
+}
+.userIcon img {
+  max-width: 100%;
+  user-select: none;
+}
+.userLogin {
+  margin-left: 15px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}

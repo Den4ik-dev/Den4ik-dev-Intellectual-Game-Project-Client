@@ -1,0 +1,26 @@
+.wrapper {
+  background-color: #386acd;
+  height: 100%;
+  padding: 70px 25px 70px 25px;
+  overflow: auto;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  padding: 0 25px 40px 25px;
+}
+
+.mainBtn {
+  font-size: 20px;
+  color: #fff;
+  background-color: #2c55a4;
+  display: flex;
+  padding: 18px 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}

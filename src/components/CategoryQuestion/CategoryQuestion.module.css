@@ -1,0 +1,19 @@
+.categoryQuestion {
+  text-align: center;
+  /* display: inline-block; */
+  padding: 20px 45px;
+  background-color: #2c55a4;
+  border-radius: 20px;
+  margin: 10px 20px;
+}
+.icon {
+  max-width: 160px;
+}
+.icon img {
+  width: 100%;
+  user-select: none;
+}
+.title {
+  color: #fff;
+  margin-top: 20px;
+}

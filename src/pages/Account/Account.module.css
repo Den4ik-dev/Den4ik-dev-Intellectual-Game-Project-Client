@@ -1,0 +1,56 @@
+.wrapper {
+  background-color: #966cb8;
+  padding: 0 25px;
+  padding-bottom: 15px;
+  height: 100%;
+}
+
+.header {
+  padding: 15px 0;
+}
+.homeLink {
+  width: 40px;
+}
+.homeLink img {
+  width: 100%;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.userIcon {
+  width: 70px;
+  margin-right: 20px;
+}
+.userIcon img {
+  width: 100%;
+}
+.userLogin {
+  color: #fff;
+}
+.progressBar {
+  height: 100px;
+  width: 70.3%;
+  background-color: #785693;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .progressBar {
+    width: 100%;
+  }
+}
+
+.progressBarLine {
+  background-color: #2c55a4;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.statistics {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 40px;
+}

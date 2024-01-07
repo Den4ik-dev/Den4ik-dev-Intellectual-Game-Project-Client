@@ -1,0 +1,43 @@
+.wrapper {
+  min-height: 100%;
+  /* height: 100%; */
+  /* overflow: auto; */
+  background-color: #966cb8;
+  margin-top: 70px;
+  padding: 10px 25px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 15px 25px;
+  background-color: #966cb8;
+}
+.headerBackButton {
+  width: 40px;
+}
+.headerBackButton img {
+  width: 100%;
+}
+.main {
+}
+.userQuestion {
+  display: flex;
+  align-items: center;
+  background-color: #785693;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+}
+.userQuestionIcon {
+  width: 40px;
+}
+.userQuestionIcon img {
+  width: 100%;
+}
+.userQuestionContent {
+  color: #fff;
+  margin-left: 15px;
+}
